@@ -1,5 +1,6 @@
 models:
   - name: dim_listings_cleansed
+    description: This is the cleansed table.
     data_tests:
       - minimum_row_count:
           arguments:
@@ -30,6 +31,7 @@ models:
                         'Hotel room']
 
      - name: minimum_nights
+       description: '{{ doc("dim_listing_cleansed__minimum_nights") }}'
        data_tests:
         - positive_values
       

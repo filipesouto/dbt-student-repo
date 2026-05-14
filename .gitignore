@@ -1,0 +1,6 @@
+.venv/
+logs/
+airbnb/target/
+airbnb/dbt_packages/
+airbnb/logs/
+airbnb/profiles.yml

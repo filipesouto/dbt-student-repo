@@ -4,3 +4,7 @@ airbnb/target/
 airbnb/dbt_packages/
 airbnb/logs/
 airbnb/profiles.yml
+my_dbt_dagster_project/.venv/
+my_dbt_dagster_project/*.egg-info/
+__pycache__/
+*.pyc
